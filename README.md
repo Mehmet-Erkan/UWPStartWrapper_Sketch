@@ -8,3 +8,7 @@ This article is shown how to create a shortcut to open a UWP Application
 https://www.tenforums.com/tutorials/93296-create-shortcut-app-file-folder-drive-website-windows-10-a.html
 
 This shortcuts cannot be used in many programs for keybindings. It will only accept shortcuts to exe links
+
+## DisplayFusion Software
+This Software is an Windows Tool to manage the behaviour of the windows desktop and application very sofissticated
+https://www.displayfusion.com/
