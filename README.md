@@ -12,3 +12,6 @@ This shortcuts cannot be used in many programs for keybindings. It will only acc
 ## DisplayFusion Software
 This Software is an Windows Tool to manage the behaviour of the windows desktop and application very sofissticated
 https://www.displayfusion.com/
+
+## Credits
+https://lifehacker.com/how-to-create-a-shortcut-for-any-modern-windows-app-1722569853
