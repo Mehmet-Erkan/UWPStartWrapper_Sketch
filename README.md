@@ -9,6 +9,23 @@ https://www.tenforums.com/tutorials/93296-create-shortcut-app-file-folder-drive-
 
 This shortcuts cannot be used in many programs for keybindings. It will only accept shortcuts to exe links
 
+### Retrieve App ID
+```
+$installedapps = get-AppxPackage
+
+
+foreach ($app in $installedapps)
+{
+    foreach ($id in (Get-AppxPackageManifest $app).package.applications.application.id)
+    {
+
+        $line = $app.Name + " = " + $app.packagefamilyname + "!" + $id
+        echo $line
+
+    }
+}
+```
+
 ## DisplayFusion Software
 This Software is an Windows Tool to manage the behaviour of the windows desktop and application very sofissticated
 https://www.displayfusion.com/
