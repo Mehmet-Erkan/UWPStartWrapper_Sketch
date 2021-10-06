@@ -2,6 +2,8 @@
 using namespace std;
 
 int main(void) {
-	system("explorer.exe shell:AppsFolder\\89006A2E.AutodeskSketchBook_tf1gferkr813w!App");
+	// Get App ID from PowerShell Get-AppxPackage
+	// Check Readme
+	system("explorer.exe shell:AppsFolder\\Microsoft.Office.OneNote_8wekyb3d8bbwe!microsoft.onenoteim");
 	return(0);
 }
